@@ -29,7 +29,6 @@ readline.question("Write Your Input:   ", (input) => {
 
   inputIsChar = () => {
     // Checking input is char
-    var _pattern = /[A-Za-z0-9]/g;
     if (input.match(/[a-z]/i)) {
       return true;
     } else {
